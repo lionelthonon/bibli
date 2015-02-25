@@ -1,0 +1,47 @@
+.last-adds {
+	width: $main-width;
+	margin: 4em auto 0 auto;
+	
+	.last-adds__list ul{
+		margin: 0;
+		padding: 0;
+	}
+	
+	.last-adds__list .last-adds__item {
+		border: 1px solid $main-background-color;
+		background: #fff;
+		list-style-type: none;
+		margin: 0 1.5em 0 0;
+		padding: 0;
+		display: inline-block;
+		width: 339.666666666666666px;
+		position: relative;
+		overflow: hidden;
+		
+		span {
+			display: block;
+		}
+		
+		.last-adds__item-img {
+			background: silver;
+			width: 100%;
+			height: 400px;
+		}
+		
+		.last-adds__item-desc {
+			position: absolute;
+			top: 0;
+			height: 0;
+			width: 100%;
+			height: 100%;
+			padding-top: 150%;
+			width: 100%;
+			text-align: center;
+		}
+		
+		.last-adds__item-desc:hover {
+			padding-top: 50%;
+			background-color: $main-background-color-transparent;
+		}
+	}
+}

@@ -1,0 +1,26 @@
+/* --- variables --- */
+$main-width: 1080px;
+$whole-background: #f2f2f2;
+$main-background-color: #1BBC9B;
+$main-background-color-transparent: rgba(27, 188, 155, 0.58);
+$main-color: #fff;
+$color-content: #404040;
+
+/* --- includes --- */
+@import "normalize";
+@import "base";
+@import "font-faces";
+
+/* --- Header ---*/
+@import "header/base";
+@import "header/navigation";
+
+/* --- Main ---*/
+@import "main/header";
+@import "main/base";
+@import "main/last-adds";
+
+/* --- Footer ---*/
+
+/* --- helpers --- */
+@import "helpers";

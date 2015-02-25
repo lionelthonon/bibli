@@ -1,0 +1,48 @@
+/* --- Navigation --- */
+.nav-container {
+	width: 100%;
+	background-color: $main-background-color;
+	height: auto;
+	color: $main-color;
+	padding: 0.5em 0;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 99999;
+}
+
+#navigation {
+	text-transform: uppercase;
+	width: $main-width;
+	margin: 0 auto;
+	
+	#nav {
+		margin: 0.35em 0 0 0;
+		float: right;
+		min-height: 100%;
+	}
+	
+	.nav-title {
+		font-family: bebas;
+		font-size: 18pt;
+	}
+	
+	.nav-item {
+		display: inline-block;
+		.nav-a{
+			padding: 0.3em 0.3em 0.4em 0.3em;
+			font-size: 12pt;
+		}
+		
+		.nav-a:hover {
+			background-color: darken($main-background-color, 25%);
+		}
+	}
+}
+
+#main-title {
+	font-size: 20pt;
+	font-family: bebas;
+	margin: 0;
+	padding: 0;
+}
