@@ -68,6 +68,10 @@ textarea {
 	text-shadow: 0 -1px #838383;
 }
 
+.title-underline-white {
+    border-bottom: 1px solid $whole-background;
+}
+
 .transition {
 	transition: ease-in-out 250ms;
 }

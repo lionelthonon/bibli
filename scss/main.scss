@@ -2,7 +2,7 @@
 $main-width: 1080px;
 $whole-background: #f2f2f2;
 $main-background-color: #1BBC9B;
-$main-background-color-transparent: rgba(27, 188, 155, 0.58);
+$main-background-color-transparent: rgba(27, 188, 155, 0.72);
 $main-color: #fff;
 $color-content: #404040;
 
@@ -22,6 +22,6 @@ $color-content: #404040;
 @import "main/top-book";
 
 /* --- Footer ---*/
-
+@import "footer/base";
 /* --- helpers --- */
 @import "helpers";
