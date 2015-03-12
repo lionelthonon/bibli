@@ -4,11 +4,11 @@
 	height: 400px;
 	position: absolute;
 	border-bottom: 5px solid $main-background-color;
-	margin: 3em 0;
+	margin: 0;
 }
 
 .header-background.img {
-	background: url('../img/bkcg.jpg') 0 15% no-repeat;
+	background: url('../img/bkcg.jpg') 0 100% repeat-y;
 	background-size: 100%;
     background-attachment: fixed;
 }
