@@ -1,0 +1,71 @@
+.fiche-livre
+{
+    width: $main-width;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* header */
+.fiche-livre__header
+{
+    padding: 10px;
+
+    h3 {
+        font-size: 20pt;
+        margin: 0;
+    }
+
+    .sous-titre-livre
+    {
+        margin: 0;
+    }
+
+    .auteur, .editeur
+    {
+        font-style: italic;
+    }
+}
+
+/* contenu -- informations complementaires*/
+.fiche-livre__infos-compl
+{
+    float: left;
+    margin-top: 10px;
+    padding: 20px;
+    width: 61%;
+    border-radius: 3px;
+
+
+    h4 {
+        margin: 0;
+        font-size: 14pt;
+    }
+
+    p{
+        margin-left: 20px;
+
+        span {
+            font-weight: bold;
+        }
+    }
+}
+
+/* contenu -- synopsis */
+.synopsis
+{
+    float: left;
+    width: 61%;
+    padding: 20px;
+    h4 {
+        margin: 0;
+        font-size: 14pt;
+    }
+}
+
+/* image */
+.fiche-livre__img img
+{
+    float: left;
+    width: 340px;
+    margin: 10px;
+}

@@ -1,10 +1,10 @@
 /* --- variables --- */
 $main-width: 1080px;
-$whole-background: #f2f2f2;
-$main-background-color: #1BBC9B;
-$main-background-color-transparent: rgba(27, 188, 155, 0.72);
-$main-color: #fff;
-$color-content: #404040;
+$whole-background: #f2f2f2; /* blanc */
+$main-background-color: #2b5797; /* Bleu */
+$main-background-color-transparent: rgba(0, 0, 0, 0.67); /* Noir transparent */
+$main-color: #fff; /* Blanc pur */
+$color-content: #404040; /* Noir claire */
 
 /* --- includes --- */
 @import "normalize";
@@ -20,6 +20,9 @@ $color-content: #404040;
 @import "main/base";
 @import "main/last-adds";
 @import "main/top-book";
+
+/* --- Pages --- */
+@import "book/book";
 
 /* --- Footer ---*/
 @import "footer/base";
